@@ -1,0 +1,730 @@
+{
+ "NN, MinCorr": {
+  "n_edges": 68,
+  "density": 0.25,
+  "reciprocity": 0.7254901960784313,
+  "components": [
+   {
+    "size": 11,
+    "edges": 65,
+    "density": 0.5909090909090909,
+    "reciprocity": 0.5111111111111112,
+    "sccs": [
+     [
+      "GEN",
+      "MSIR1",
+      "MSIR2",
+      "MSIS1",
+      "MSIS2",
+      "WC",
+      "gLV"
+     ],
+     [
+      "DW",
+      "MUT",
+      "SIR",
+      "SIS"
+     ]
+    ],
+    "largest_scc": 7,
+    "members": [
+     "SIS",
+     "SIR",
+     "MSIS1",
+     "MSIS2",
+     "MSIR1",
+     "MSIR2",
+     "DW",
+     "MUT",
+     "GEN",
+     "WC",
+     "gLV"
+    ],
+    "all_adjacency": true,
+    "all_diffusive": false
+   },
+   {
+    "size": 2,
+    "edges": 2,
+    "density": 1.0,
+    "reciprocity": NaN,
+    "sccs": [
+     [
+      "EUT1",
+      "EUT2"
+     ]
+    ],
+    "largest_scc": 2,
+    "members": [
+     "EUT1",
+     "EUT2"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 2,
+    "edges": 1,
+    "density": 0.5,
+    "reciprocity": -1.0,
+    "sccs": [
+     [
+      "VEG1"
+     ],
+     [
+      "VEG2"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "VEG1",
+     "VEG2"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 1,
+    "edges": 0,
+    "density": NaN,
+    "reciprocity": NaN,
+    "sccs": [
+     [
+      "LDW"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "LDW"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 1,
+    "edges": 0,
+    "density": NaN,
+    "reciprocity": NaN,
+    "sccs": [
+     [
+      "NM"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "NM"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   }
+  ]
+ },
+ "NN, QR": {
+  "n_edges": 77,
+  "density": 0.28308823529411764,
+  "reciprocity": 0.692041292041292,
+  "components": [
+   {
+    "size": 11,
+    "edges": 75,
+    "density": 0.6818181818181818,
+    "reciprocity": 0.37142857142857166,
+    "sccs": [
+     [
+      "DW",
+      "GEN",
+      "MSIR1",
+      "MSIR2",
+      "MSIS1",
+      "MSIS2",
+      "MUT",
+      "SIR",
+      "SIS",
+      "WC",
+      "gLV"
+     ]
+    ],
+    "largest_scc": 11,
+    "members": [
+     "SIS",
+     "SIR",
+     "MSIS1",
+     "MSIS2",
+     "MSIR1",
+     "MSIR2",
+     "DW",
+     "MUT",
+     "GEN",
+     "WC",
+     "gLV"
+    ],
+    "all_adjacency": true,
+    "all_diffusive": false
+   },
+   {
+    "size": 2,
+    "edges": 1,
+    "density": 0.5,
+    "reciprocity": -1.0,
+    "sccs": [
+     [
+      "EUT1"
+     ],
+     [
+      "EUT2"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "EUT1",
+     "EUT2"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 2,
+    "edges": 1,
+    "density": 0.5,
+    "reciprocity": -1.0,
+    "sccs": [
+     [
+      "VEG1"
+     ],
+     [
+      "VEG2"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "VEG1",
+     "VEG2"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 1,
+    "edges": 0,
+    "density": NaN,
+    "reciprocity": NaN,
+    "sccs": [
+     [
+      "LDW"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "LDW"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 1,
+    "edges": 0,
+    "density": NaN,
+    "reciprocity": NaN,
+    "sccs": [
+     [
+      "NM"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "NM"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   }
+  ]
+ },
+ "NN, random": {
+  "n_edges": 55,
+  "density": 0.20220588235294118,
+  "reciprocity": 0.339086719731881,
+  "components": [
+   {
+    "size": 11,
+    "edges": 52,
+    "density": 0.4727272727272727,
+    "reciprocity": -0.021220159151193567,
+    "sccs": [
+     [
+      "DW",
+      "MUT",
+      "SIR",
+      "SIS"
+     ],
+     [
+      "GEN",
+      "MSIS1",
+      "WC",
+      "gLV"
+     ],
+     [
+      "MSIR1",
+      "MSIS2"
+     ],
+     [
+      "MSIR2"
+     ]
+    ],
+    "largest_scc": 4,
+    "members": [
+     "SIS",
+     "SIR",
+     "MSIS1",
+     "MSIS2",
+     "MSIR1",
+     "MSIR2",
+     "DW",
+     "MUT",
+     "GEN",
+     "WC",
+     "gLV"
+    ],
+    "all_adjacency": true,
+    "all_diffusive": false
+   },
+   {
+    "size": 2,
+    "edges": 2,
+    "density": 1.0,
+    "reciprocity": NaN,
+    "sccs": [
+     [
+      "EUT1",
+      "EUT2"
+     ]
+    ],
+    "largest_scc": 2,
+    "members": [
+     "EUT1",
+     "EUT2"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 2,
+    "edges": 1,
+    "density": 0.5,
+    "reciprocity": -1.0,
+    "sccs": [
+     [
+      "VEG1"
+     ],
+     [
+      "VEG2"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "VEG1",
+     "VEG2"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 1,
+    "edges": 0,
+    "density": NaN,
+    "reciprocity": NaN,
+    "sccs": [
+     [
+      "LDW"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "LDW"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 1,
+    "edges": 0,
+    "density": NaN,
+    "reciprocity": NaN,
+    "sccs": [
+     [
+      "NM"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "NM"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   }
+  ]
+ },
+ "linear, MinCorr": {
+  "n_edges": 69,
+  "density": 0.2536764705882353,
+  "reciprocity": 0.7087170700364104,
+  "components": [
+   {
+    "size": 11,
+    "edges": 66,
+    "density": 0.6,
+    "reciprocity": 0.46969696969696967,
+    "sccs": [
+     [
+      "GEN",
+      "MSIR1",
+      "MSIR2",
+      "MSIS1",
+      "MSIS2",
+      "WC",
+      "gLV"
+     ],
+     [
+      "DW",
+      "MUT",
+      "SIR",
+      "SIS"
+     ]
+    ],
+    "largest_scc": 7,
+    "members": [
+     "SIS",
+     "SIR",
+     "MSIS1",
+     "MSIS2",
+     "MSIR1",
+     "MSIR2",
+     "DW",
+     "MUT",
+     "GEN",
+     "WC",
+     "gLV"
+    ],
+    "all_adjacency": true,
+    "all_diffusive": false
+   },
+   {
+    "size": 2,
+    "edges": 2,
+    "density": 1.0,
+    "reciprocity": NaN,
+    "sccs": [
+     [
+      "EUT1",
+      "EUT2"
+     ]
+    ],
+    "largest_scc": 2,
+    "members": [
+     "EUT1",
+     "EUT2"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 2,
+    "edges": 1,
+    "density": 0.5,
+    "reciprocity": -1.0,
+    "sccs": [
+     [
+      "VEG1"
+     ],
+     [
+      "VEG2"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "VEG1",
+     "VEG2"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 1,
+    "edges": 0,
+    "density": NaN,
+    "reciprocity": NaN,
+    "sccs": [
+     [
+      "LDW"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "LDW"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 1,
+    "edges": 0,
+    "density": NaN,
+    "reciprocity": NaN,
+    "sccs": [
+     [
+      "NM"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "NM"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   }
+  ]
+ },
+ "linear, QR": {
+  "n_edges": 78,
+  "density": 0.2867647058823529,
+  "reciprocity": 0.6764472640761301,
+  "components": [
+   {
+    "size": 11,
+    "edges": 76,
+    "density": 0.6909090909090909,
+    "reciprocity": 0.3188854489164087,
+    "sccs": [
+     [
+      "DW",
+      "GEN",
+      "MSIR1",
+      "MSIR2",
+      "MSIS1",
+      "MSIS2",
+      "MUT",
+      "SIR",
+      "SIS",
+      "WC",
+      "gLV"
+     ]
+    ],
+    "largest_scc": 11,
+    "members": [
+     "SIS",
+     "SIR",
+     "MSIS1",
+     "MSIS2",
+     "MSIR1",
+     "MSIR2",
+     "DW",
+     "MUT",
+     "GEN",
+     "WC",
+     "gLV"
+    ],
+    "all_adjacency": true,
+    "all_diffusive": false
+   },
+   {
+    "size": 2,
+    "edges": 1,
+    "density": 0.5,
+    "reciprocity": -1.0,
+    "sccs": [
+     [
+      "EUT1"
+     ],
+     [
+      "EUT2"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "EUT1",
+     "EUT2"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 2,
+    "edges": 1,
+    "density": 0.5,
+    "reciprocity": -1.0,
+    "sccs": [
+     [
+      "VEG1"
+     ],
+     [
+      "VEG2"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "VEG1",
+     "VEG2"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 1,
+    "edges": 0,
+    "density": NaN,
+    "reciprocity": NaN,
+    "sccs": [
+     [
+      "LDW"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "LDW"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 1,
+    "edges": 0,
+    "density": NaN,
+    "reciprocity": NaN,
+    "sccs": [
+     [
+      "NM"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "NM"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   }
+  ]
+ },
+ "linear, random": {
+  "n_edges": 53,
+  "density": 0.1948529411764706,
+  "reciprocity": 0.2735418282071164,
+  "components": [
+   {
+    "size": 11,
+    "edges": 50,
+    "density": 0.45454545454545453,
+    "reciprocity": -0.09999999999999994,
+    "sccs": [
+     [
+      "DW",
+      "MUT",
+      "SIR",
+      "SIS"
+     ],
+     [
+      "GEN",
+      "MSIS1",
+      "WC",
+      "gLV"
+     ],
+     [
+      "MSIR1",
+      "MSIS2"
+     ],
+     [
+      "MSIR2"
+     ]
+    ],
+    "largest_scc": 4,
+    "members": [
+     "SIS",
+     "SIR",
+     "MSIS1",
+     "MSIS2",
+     "MSIR1",
+     "MSIR2",
+     "DW",
+     "MUT",
+     "GEN",
+     "WC",
+     "gLV"
+    ],
+    "all_adjacency": true,
+    "all_diffusive": false
+   },
+   {
+    "size": 2,
+    "edges": 2,
+    "density": 1.0,
+    "reciprocity": NaN,
+    "sccs": [
+     [
+      "EUT1",
+      "EUT2"
+     ]
+    ],
+    "largest_scc": 2,
+    "members": [
+     "EUT1",
+     "EUT2"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 2,
+    "edges": 1,
+    "density": 0.5,
+    "reciprocity": -1.0,
+    "sccs": [
+     [
+      "VEG1"
+     ],
+     [
+      "VEG2"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "VEG1",
+     "VEG2"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 1,
+    "edges": 0,
+    "density": NaN,
+    "reciprocity": NaN,
+    "sccs": [
+     [
+      "LDW"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "LDW"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   },
+   {
+    "size": 1,
+    "edges": 0,
+    "density": NaN,
+    "reciprocity": NaN,
+    "sccs": [
+     [
+      "NM"
+     ]
+    ],
+    "largest_scc": 1,
+    "members": [
+     "NM"
+    ],
+    "all_adjacency": false,
+    "all_diffusive": true
+   }
+  ]
+ }
+}

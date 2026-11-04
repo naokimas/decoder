@@ -1,0 +1,10 @@
+# Python 3.9 or later.  These are the versions the results were produced with.
+numpy==2.0.2
+scipy==1.13.1
+networkx==3.2.1
+matplotlib==3.9.4
+pillow==11.3.0
+torch==2.8.0
+# Needed only by equilibria/original16/verify_networks.py, which builds the
+# network edge lists from the original .rds files:
+# rdata==0.11.2
